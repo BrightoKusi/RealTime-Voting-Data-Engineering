@@ -69,7 +69,7 @@ if __name__ == "__main__":
                                     .format('kafka')
                                     .option('kafka.bootstrap.servers', 'localhost:9092')
                                     .option('topic', 'aggregated_votes_per_candidate')
-                                    .option('checkpointLocation', "/path/to/checkpoints/checkpoint2")
+                                    .option('checkpointLocation', "/home/bright/voting/VotingEngineering/checkpoints/checkpoint2")
                                     .outputMode('update')
                                     .start())
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
                                      .format('kafka')
                                      .option('kafka.bootstrap.servers', 'localhost:9092')
                                      .option('topic', 'aggregated_turnout_per_location')
-                                     .option('checkpointLocation', "/path/to/checkpoints/checkpoint1")
+                                     .option('checkpointLocation', "/home/bright/voting/VotingEngineering/checkpoints/checkpoint1")
                                      .outputMode('update')
                                      .start())
 
