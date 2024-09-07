@@ -1,4 +1,4 @@
-# Election Dashboard Project
+# RealTime Election Voting Engineering 
 
 
 ![systema architecture](images/system_architecture.jpg)
